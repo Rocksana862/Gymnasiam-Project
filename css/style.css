@@ -1,0 +1,1272 @@
+*
+{
+margin:0;
+padding:0;
+}
+ol,ul
+{
+list-style: none;
+}
+a,a:hover
+{
+text-decoration: none;
+}
+img
+{
+vertical-align: middle;
+}
+button:focus
+{
+outline:0;
+}
+h2
+{
+font-family:'Oswald', sans-serif;
+font-weight: 400;
+font-size:22px;
+color:#353535;
+text-transform: uppercase;
+}
+h3
+{
+font-family:'Oswald', sans-serif;
+font-weight:700;
+}
+p
+{
+font-size:13px;
+font-weight:400;
+line-height:24px;
+font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul,li,a,i,.overlay
+{
+margin-top:0;
+margin-bottom:0;
+-webkit-transition:all linear 0.3s;
+-ms-transition:all linear 0.3s;
+-moz-transition:all linear 0.3s;
+-o-transition:all linear 0.3s;
+transition: all linear 0.3s;
+}
+.p80
+{
+padding-top:80px;
+padding-bottom:80px;
+}
+.overlay
+{
+position:absolute;
+width:100%;
+height:100%;
+background:rgb(0 0 0 / 60%);
+top:0;
+left:0;
+text-align: center;
+}
+.relative
+{
+position: relative;
+}
+.border-img
+{
+margin-top:-15px;
+}
+/***Common css ENDS***/
+#banner .bnr_overlay
+{
+background:rgb(0 0 0 / 35%);
+padding-top:227px;
+padding-bottom: 115px;
+}
+#banner .bnr_item_one
+{
+background:url(../images/Gymnasium.jpg) no-repeat center;
+background-size: cover;
+}
+#banner .bnr_item_one h3
+{
+color:#ffffff;
+text-transform:uppercase;
+padding-bottom:10px;
+}
+#banner .bnr_item_one h1
+{
+font-family: 'Oswald', sans-serif;
+font-weight: 800;
+font-size:60px;
+color:#e23e38;
+text-transform:uppercase;
+}
+#banner .bnr_item_one p
+{
+color:#ffffff;
+line-height:18px;
+padding-bottom:30px;
+padding-top:10px;
+}
+#banner .bnr_overlay_two
+{
+background:rgb(0 0 0 / 58%);
+padding-top:227px;
+padding-bottom: 115px;
+}
+#banner .bnr_item_two
+{
+background:url(../images/banner-img-slider-2.jpg) no-repeat center;
+background-size: cover;
+}
+#banner .bnr_item_two h3
+{
+color:#ffffff;
+text-transform:uppercase;
+padding-bottom:10px;
+}
+#banner .bnr_item_two h1
+{
+font-family: 'Oswald', sans-serif;
+font-weight: 800;
+font-size:60px;
+color:#e23e38;
+text-transform:uppercase;
+}
+#banner .bnr_item_two p
+{
+color:#ffffff;
+padding-top:10px;
+line-height:18px;
+padding-bottom:30px;
+}
+#banner .bnr_item_two ul li a
+{
+background:#e23e38;
+margin-left: -29px;
+}
+#banner .bnr_item_two ul li .btn-left a
+{
+margin-left:13px;
+}
+#banner .bnr_overlay_three
+{
+background:rgb(0 0 0 / 58%);
+padding-top:227px;
+padding-bottom: 115px;
+}
+#banner .bnr_item_three
+{
+background:url(../images/banner-img-3-slider.jpg) no-repeat center;
+background-size: cover;
+}
+#banner .bnr_item_three h3
+{
+color:#ffffff;
+text-transform:uppercase;
+padding-bottom:10px;
+}
+#banner .bnr_item_three h1
+{
+font-family: 'Oswald', sans-serif;
+font-weight: 800;
+font-size:60px;
+color:#e23e38;
+text-transform:uppercase;
+}
+#banner .bnr_item_three p
+{
+color:#ffffff;
+padding-top:10px;
+line-height:18px;
+padding-bottom:30px;
+}
+#banner .bnr_item_three ul li a
+{
+background:#e23e38;
+margin-left: -29px;
+}
+#banner .bnr_item_three ul li .left-btn a
+{
+margin-left:13px;
+}
+#banner ul li
+{
+display: inline-block;
+}
+#banner ul li a
+{
+font-family:'Oswald', sans-serif;
+font-size:16px;
+font-weight:600;
+color:#ffffff;
+text-transform:uppercase;
+line-height:34px;
+background:#e23e38;
+display: inline-block;
+padding:0 20px;
+margin: 0 13px;
+border: 1px solid #e23e38;
+}
+#banner ul li a:hover
+{
+background: none;
+border: 1px solid #ffffff;
+}
+#banner ul .transparent li a
+{
+background:transparent;
+border: 1px solid #ffffff;
+}
+#banner ul .transparent li a:hover
+{
+background:#e23e38;
+border: 1px solid #e23e38;
+}
+#banner .border-1,#banner .border-2,#banner .border-3
+{
+position:relative;
+}
+#banner .border-1:after
+{
+position: absolute;
+content: '';
+top:19px;
+left:-86px;
+width:40%;
+height:3px;
+background: #e23e38;
+border-bottom-right-radius: 34px;
+}
+#banner .border-1:before
+{
+position: absolute;
+content:'';
+width:3px;
+height:84%;
+background: #e23e38;
+top: 20px;
+left:-87px;
+}
+#banner .border-2:after
+{
+position:absolute;
+content:'';
+width:13%;
+height:3px;
+background: #e23e38;
+left:-86px;
+bottom:16px;
+}
+#banner .border-2:before
+{
+position:absolute;
+content:'';
+width:40%;
+height:3px;
+top:19px;
+right:-86px;
+background: #e23e38;
+border-bottom-left-radius: 34px;
+}
+#banner .border-3:after
+{
+position: absolute;
+content:'';
+width:3px;
+height:84%;
+top:19px;
+right:-16%;
+background:#e23e38;
+}
+#banner .border-3:before
+{
+position:absolute;
+content:'';
+width:13%;
+height:3px;
+background: #e23e38;
+right: -86px;
+bottom:16px;
+}
+#banner .slick-dots
+{
+position: absolute;
+left:50%;
+bottom:30px;
+transform: translateX(-50%);
+}
+#banner .slick-dots li button
+{
+font-size:0;
+width:20px;
+height:20px;
+background:none;
+border:2px solid #fff;
+border-radius: 50%;
+margin:20px 4px;
+}
+#banner .slick-dots li.slick-active button
+{
+background:#e23e38;
+border:#e23e38; 
+}
+/*******Banner part css ENDS****/
+/*******Menubar part css START****/
+header #navigation
+{
+position: absolute;
+top:28px;
+left:0;
+width:100%;
+background:rgb(63, 4, 4, 0.0);
+}
+header #navigation .navbar-nav .nav-item .nav-link
+{
+font-family: 'Oswald', sans-serif;
+font-size:14px;
+font-weight:400;
+color:#f1f1f1;
+text-transform:uppercase;
+line-height:50px;
+padding:0 20px;
+/*position: relative;*/
+transition:.4s;
+position:relative;
+} 
+header #navigation .navbar-nav .nav-item .nav-link:hover
+{
+background:#ffff;
+color:#444;
+transition:.4s;
+}
+header #navigation .navbar-nav .nav-item .nav-link.active
+{
+color:#353535;
+background:#ffff;
+}
+header #navigation .navbar-nav .nav-item .nav-link.active:after
+{
+position:absolute;
+content:'';
+bottom:0;
+left:0;
+width:100%;
+height:2px;
+background:#e23e38;
+}
+header #navigation .navbar-nav .nav-item .nav-link:after
+{
+position:absolute;
+content:'';
+bottom:0;
+left:0;
+width:0%;
+height:2px;
+background:#3e0404;
+}
+header #navigation .navbar-nav .nav-item .nav-link:hover::after
+{
+width:100%;
+transition:.4s;
+background:#e23e38;
+}
+header #navigation .navbar-brand
+{
+background:#323232;
+padding:10px 20px;
+position:absolute;
+top:0;
+left:0;
+transform:skewX(-30deg);
+}
+header #navigation .navbar-brand img
+{
+transform:skewX(30deg);
+}
+/*******Menubar part css ENDS****/
+/*******About Us CSS part START****/
+#about .overlay i
+{
+font-size:60px;
+color:#e23e38;
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+}
+#about .overlay i:hover
+{
+color:#ffffff;
+}
+#about .text
+{
+font-size:22px;
+color:#5e5e5e;
+}
+#about .text p
+{
+font-family: 'Open Sans', sans-serif;
+font-size:14px;
+font-weight:400;
+color:#777777;
+line-height: 24px;
+padding-top:5px;
+}
+#about .text .pb19
+{
+padding-bottom:19px;
+}
+/*******About Us CSS part ENDS****/
+/*******Our Gallery CSS part START****/
+#gallery .gallery_img
+{
+background:url(../images/Gallery-bg.jpg) no-repeat center;
+background-size: cover;
+margin-top:25px;
+}
+#gallery .gallery_overlay
+{
+background:rgb(0 0 0 / 80%);
+padding-top: 30px;
+}
+#gallery .gallery_img .image
+{
+margin-bottom:30px;
+}
+#gallery .gallery_img .image:hover .overlay
+{
+opacity:1;
+
+}
+#gallery .gallery_img .overlay
+{
+background:rgb(226 62 56 / 50%);
+opacity:0;
+}
+#gallery .gallery_img .overlay i
+{
+color:#000;
+font-size:20px;
+width:40px;
+height:40px;
+background:#ffffff;
+line-height:40px;
+position:absolute;
+top:50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+}
+/*******Our Gallery CSS part ENDS***/
+/*******Our Team CSS part START***/
+#Our_team 
+{
+background:#ffffff;
+}
+#Our_team figure
+{
+transition: .4s;
+margin:0 20px;
+}
+#Our_team figure:hover
+{
+border:1px solid #f1f1f1;
+transform:translateY(-40px);
+transition: .4s;
+}
+#Our_team figure .team_member
+{
+background:#f1f1f1;
+padding-top:10px;
+position: relative;
+transition: all linear 0.3s;
+}
+#Our_team figure:hover .team_member
+{
+background:#ddd;
+}
+#Our_team figure .team_member .overlay
+{	background:rgb(226 62 56 / 50%);
+	opacity:0;
+	width:100%;
+	height:100%;
+	
+/**NOTE: ai part overlay translate korar por o 
+img ta thik moto transparent 
+astecha na ai part ta kibhabe 
+koerte pari? Abs sir er ta dekhea hubu hubu korchi 
+ta o hoy nai.**/
+}
+#Our_team figure:hover .team_member .overlay
+{	width:94%;
+	height:94%;
+	top:3%;
+	left:3%;
+	border: 5px solid rgba(255, 255, 255, 1);
+	box-sizing: border-box;
+	opacity: 1;
+}
+#Our_team figure .team_member .overlay ul li a i
+{
+width:30px;
+height:30px;
+line-height: 30px;
+border: 1px solid #fff;
+color:#ffff;
+text-align:center;
+margin: 5px 0;
+}
+#Our_team figure .team_member .overlay ul li a i:hover
+{
+color:#0A66C2;
+}
+#Our_team figure .team_member .overlay ul 
+{
+margin-top:50%;
+float:right;
+transform: translateY(-50%);
+margin-right:10px;
+}
+#Our_team figure .team_member .overlay ul li a .fb i
+{
+color:#ffff;
+transition:.4s;
+}
+#Our_team figure .team_member .overlay ul li a .fb i:hover
+{
+background:#ffff;
+color:#4E96F3;
+transition:.4s;
+}
+#Our_team figure .team_member .overlay ul li a .link-din i
+{
+color:#ffff;
+transition:.4s;
+}
+#Our_team figure .team_member .overlay ul li a .link-din i:hover
+{
+background:#ffffff;
+color:#0A66C2;
+transition:.4s;
+}
+#Our_team figure .team_member .overlay ul li a .twitter i
+{
+color:#5DA9DD;
+background: #ffff;
+transition:.4s;
+}
+#Our_team figure .team_member .overlay ul li a .twitter i:hover
+{
+background:#5DA9DD;
+color:#fff;
+transition:.4s;
+/**border: none;<-NOTE ami ai khany
+ cachilam jkhn hover korbo tokhn border
+ thkbe na .kintu jkhn e border:none 
+ use korchi tkhn e cursor rakhar satha
+ satha hover hole sai ta kepa jache 
+ icon ta ai ter karon ki? Ai problem
+ ami r o onk ber face korychi**/
+}
+#Our_team figure figcaption h3
+{
+font-weight: 400;
+font-size:14px;
+color:#353535;
+text-transform: uppercase;
+}
+#Our_team figure figcaption span
+{
+font-family:'Oswald', sans-serif;
+font-weight:400;
+font-size:14px;
+color:#555555;
+padding:5px 0;
+display:block;
+}
+#Our_team figure figcaption p
+{
+font-size:13px;
+color:#777777;
+line-height:18px;
+visibility:hidden;
+opacity:0;
+height:0;
+}
+#Our_team figure:hover figcaption p 
+{ 
+visibility:visible;
+opacity:1;
+height:auto;
+}
+#Our_team figure figcaption
+{
+padding:20px 15px;
+}
+#Our_team .team-slider .slick-list 
+{
+padding-top:70px;
+}
+/*******Our Team CSS part ENDS***/
+/*******Testimonial CSS part START***/
+#Testimonial
+{
+
+/** Ai part er ekta problem dekha dicha shai ta holo 
+uporar part a curcor rakhle ai part ta ka[a jaay 
+shai ter reason ki ami bujte parteche na.**/
+}
+#Testimonial .text_bg
+{
+background:url(../images/Gallery-bg.jpg) no-repeat center;
+background-size: cover;
+margin-top:25px;
+}
+#Testimonial .text_bg .test_overlay
+{
+background:#000;
+padding-bottom: 30px;
+}
+#Testimonial .text_bg .review 
+{
+position:relative;
+padding-left:95px;
+margin-top:30px;
+}
+#Testimonial .text_bg .review img
+{
+position: absolute;
+left:0;
+top: 0;
+}
+#Testimonial .text_bg .review h2
+{
+font-size: 14px;
+color:#ffffff;
+}
+#Testimonial .text_bg .review span
+{
+font-family:'Oswald', sans-serif;
+font-size: 14px;
+color:#ffffff;
+font-weight:400;
+}
+#Testimonial .text_bg .review ul
+{
+margin-left:-10px;
+}
+#Testimonial .text_bg .review ul .all-icon
+{
+margin-left: -22px;
+}
+#Testimonial .text_bg .review ul li
+{
+display:inline-block;
+}
+#Testimonial .text_bg .review ul li a i
+{
+color:#e23e38;
+font-size: 14px;
+margin:5px 2px;
+}
+#Testimonial .text_bg .message p
+{
+font-size:13px;
+line-height:18px;
+color:#f1f1f1;
+margin-top:25px;
+padding-bottom:30px;
+margin-right:30px;
+}
+
+#Testimonial .test_slider .slick-dots
+{
+position:absolute;
+left:50%;
+bottom:-10px;
+transform: translateX(-50%);
+text-align: center;
+}
+#Testimonial .text_bg .test_slider .slick-dots li
+{
+display: inline-block;
+}
+
+#Testimonial .text_bg .test_slider .slick-dots li button
+{
+font-size:0;
+width:20px;
+height: 20px;
+border-radius: 50%;
+background:transparent;
+border: 2px solid #f1f1f1; 
+margin:0 5px;
+}
+#Testimonial .text_bg .test_slider .slick-dots li.slick-active button
+{
+background:#e23e38;
+}
+/*******Testimonial CSS part ENDS***/
+/*******Membership CSS part START***/
+#Membership
+{
+background:#fff;
+padding-top:78px;
+padding-bottom: 78px;
+}
+#Membership .packages h3
+{
+font-size: 16px;
+color:#353535; 
+text-transform: uppercase;
+font-weight:700;
+background:#dddddd;
+line-height: 54px;
+margin-top: 30px;
+transition: all linear .4s;
+}
+#Membership .packages h3:hover
+{
+background:#e23e38;
+color:#ffffff; 
+transition: all linear .4s;
+}
+#Membership .price
+{
+background: url(../images/Member-img-1.png) no-repeat center; 
+background-size: cover;
+}
+#Membership .price .price_overlay,.price_two .price_two_overlay,.price_three .price_three_overlay
+{
+background:rgb(0 0 0 / 80%);
+transition: all linear .6s;
+}
+#Membership .price .price_overlay:hover,.price_two .price_two_overlay:hover,.price_three .price_three_overlay:hover
+{
+background: none;
+transition: all linear .6s;
+}
+#Membership .price .price_overlay h2,.price_two .price_two_overlay h2,.price_three .price_three_overlay h2
+{
+font-weight: 600;
+font-size:50px;
+color:#ffffff;
+line-height: 115px;
+}
+#Membership .price .price_overlay h2 span,.price_two .price_two_overlay h2 span,.price_three .price_three_overlay h2 span
+{
+text-transform: capitalize;
+font-size:40px;
+font-weight:400;
+}
+#Membership .price .price_overlay h2:hover,.price_two .price_two_overlay h2:hover
+{
+color:#e23e38;
+}
+#Membership .feature ul
+{
+background:#f1f1f1;
+padding:25px 0 40px;
+}
+#Membership .feature ul li a 
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:14px;
+color:#555555;
+line-height:28px;
+}
+#Membership .feature .join
+{
+font-family:'Oswald', sans-serif;
+font-weight:400;
+font-size: 16px;
+color:#353535;
+background: #dddddd;
+line-height: 34px;
+display: block;
+text-transform: uppercase;
+transition:all linear .4s;
+}
+#Membership .feature .join:hover
+{
+color: #ffffff;
+transition:all linear .4s;
+background:#e23e38;
+}
+#Membership .price_two
+{
+background: url(../images/Member-img-2.png) no-repeat center; 
+background-size: cover;
+}
+#Membership .price_three
+{
+background: url(../images/Member-img-3.png) no-repeat center; 
+background-size: cover;
+}
+/*******Membership CSS part ENDS***/
+/*****Counter CSS part START***/
+.counter .counter_overlay
+{
+background:url(../images/Counter-New-img.jpg) no-repeat center;
+background-size: cover;
+background:rgb(0 0 0 / 85%);
+padding: 40px;
+}
+.counter h3
+{
+font-family:'Oswald', sans-serif;
+font-weight: 700;
+font-size:40px;
+color: #fff;
+margin-bottom:8px;
+}
+.counter span
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+color:#fff;
+}
+
+/**** Ai part a Counter pluging set korar
+por o kaj kore nai. project sesh kore counter pluging
+niya kaj korte hobe kibhabe ai ta set kora jaay?
+**/
+/*****Counter CSS part ENDS***/
+/*****Our Classes CSS part START***/
+
+#classes .nav 
+{
+background:#f1f1f1;
+}
+#classes .nav .nav-item .nav-link
+{
+font-family:'Oswald', sans-serif;
+font-weight:400;
+font-size:14px;
+color: #353535;
+text-transform:uppercase;
+transition: all linear .4s;
+border-radius:0;
+border: none;
+}
+#classes .nav-pills .nav-link.active,#classes .nav-pills .show>.nav-link
+{
+background: #e23e38;
+color: #fff;
+}
+#classes .nav-pills .nav-link:hover
+{
+background: #e23e38;
+color: #fff;
+}
+#classes .nav .nav-item
+{
+width: 16.6%;
+}
+#classes .nav .nav-item:hover
+{
+background:#e23e38;
+color: #fff;
+}
+#classes .tab-content ul li
+{
+float: left;
+width: 20%;
+background: #f1f1f1;
+border:2.5px solid #ffff;
+min-height: 200px;
+position: relative;
+transition: all linear .4s;
+}
+#classes .tab-content ul li:hover
+{
+background: #e23e38;
+transform: scale(1.1);
+z-index: 999999;
+transition: all linear .4s;
+}
+#classes .tab-content ul li p
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+color:#353535;
+transition: all linear .4s;
+}
+#classes .tab-content ul li p:hover
+{
+color: #fff;
+transition: all linear .4s;
+}
+#classes .tab-content ul li i
+{
+font-size:50px;
+transition: all linear .4s;
+}
+#classes .tab-content ul li i:hover
+{
+color: #fff;
+transition: all linear .4s;
+}
+#classes .tab-content ul li .text
+{
+position: absolute;
+top:50%;
+left: 50%;
+width: 100%;
+transform: translateX(-50%) translateY(-50%);
+}
+#classes .tab-content .tab-pane ul li .Tuesday 
+{
+position:relative;
+}
+#classes .tab-content .tab-pane ul li .Tuesday h5 {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    width: 100%;
+    transform: translateX(-22%) translateY(115%);
+}
+#classes .tab-content .tab-pane ul li .Tuesday h5 
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+color:#353535;
+}
+#classes .tab-content .tab-pane ul li .Tuesday h5:hover
+{
+color:#fff;
+}
+#classes .tab-content .tab-pane ul li .Tuesday i
+ {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    width: 100%;
+    transform: translateX(-20%) translateY(77%);
+}
+#classes .tab-content .tab-pane ul li .Tuesday h6
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+color:#353535;
+text-align: center;
+margin-top:8rem;
+}
+#classes .tab-content .tab-pane ul li .Tuesday h6:hover
+{
+color:#fff;
+}
+#classes .tab-content .tab-pane ul li .Tuesday h6 {
+    position: absolute;
+    top:100%;
+    left: 57%;
+    width: 100%;
+    transform:translateX(-53%) translateY(100%);;
+}
+#classes .tab-content .tab-pane ul li .Wednesday,#classes .tab-content .tab-pane ul li .Thursday,#classes .tab-content .tab-pane ul li .Friday
+{
+position:relative;
+}
+
+#classes .tab-content .tab-pane ul li .Wednesday h5,#classes .tab-content .tab-pane ul li .Thursday h5,#classes .tab-content .tab-pane ul li .Friday h5 {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    width: 100%;
+    transform: translateX(-22%) translateY(115%);
+}
+#classes .tab-content .tab-pane ul li .Wednesday h5,#classes .tab-content .tab-pane ul li .Thursday h5,#classes .tab-content .tab-pane ul li .Friday h5 
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+color:#353535;
+}
+#classes .tab-content .tab-pane ul li .Wednesday h5:hover,#classes .tab-content .tab-pane ul li .Thursday h5:hover,#classes .tab-content .tab-pane ul li .Friday h5:hover
+{
+color: #fff;
+} 
+#classes .tab-content .tab-pane ul li .Wednesday i,#classes .tab-content .tab-pane ul li .Thursday i,#classes .tab-content .tab-pane ul li .Friday i
+ {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    width: 100%;
+    transform: translateX(-20%) translateY(77%);
+}
+#classes .tab-content .tab-pane ul li .Wednesday h6,#classes .tab-content .tab-pane ul li .Thursday h6,#classes .tab-content .tab-pane ul li .Friday h6
+{
+font-family: 'Open Sans', sans-serif;
+font-weight:400;
+font-size:16px;
+color:#353535;
+text-align: center;
+margin-top:8rem;
+}
+#classes .tab-content .tab-pane ul li .Wednesday h6:hover,#classes .tab-content .tab-pane ul li .Thursday h6:hover,#classes .tab-content .tab-pane ul li .Friday h6:hover
+{
+color:#ffffff;
+}
+#classes .tab-content .tab-pane ul li .Wednesday h6,#classes .tab-content .tab-pane ul li .Thursday h6,#classes .tab-content .tab-pane ul li .Friday h6 {
+    position: absolute;
+    top:100%;
+    left: 57%;
+    width: 100%;
+    transform:translateX(-53%) translateY(100%);
+}
+/*****Our Classes CSS part ENDS***/
+/*****Partner CSS part START***/
+#partner{
+background:#ffffff;
+padding: 75px 0;
+position: relative;
+}
+#partner .logo
+{
+background:#f1f1f1;
+line-height: 100px;
+margin: 10px 10px;
+}
+#partner .logo:hover
+{
+box-shadow: 0 0 4px 0;	
+}
+#partner .logo img
+{
+background:;
+padding: 30px 20px;
+}
+#partner .center .slick-prev
+{
+background:none;
+width:;
+color: #000;
+position: absolute;
+left:-9%;
+top: 27%;
+width: 10%;
+z-index: 999999;
+}
+#partner .center .slick-next
+{
+background:none;
+width:;
+color: #000;
+position: absolute;
+left:98%;
+top: 27%;
+width: 10%;
+z-index: 999999;
+}
+
+/**** NOTE SLIDER
+Ai section ami slick j alider ta nechi slick previous 
+& slick next ami inspect kore html angle-left 
+& angle-right fontawesome er icon bosaite chaichelam 
+kintu ami pari nai.html a slick class 
+dhorar por o keno shaita holo na .amar vhul
+kothay hoiche shai ta jante hobe.
+tai arrows previous & next ami remove kori nai.
+******/
+/*****Partner CSS part ENDS***/
+/*****footter CSS part START***/
+#fotter
+{
+background: url(../images/fotter-img.jpg) no-repeat center;
+background-size: cover;
+}
+#fotter .footer_overlay
+{
+/* I'll show this background later my work
+background:rgb(0 0 0 / 85%);*/
+background:rgb(0 0 0 / 85%);
+}
+#fotter .footer_logo
+{
+padding: 30px 0;
+}
+#fotter .footer_contents
+{
+border-top: 1px solid #f1f1f1;
+}
+#fotter .footer_contents h3
+{
+font-family: 'Oswald', sans-serif;
+font-weight: 400;
+font-size: 15px;
+color:#ffff;
+text-transform: uppercase;
+padding-top:30px;
+} 
+#fotter .footer_contents ul
+{
+margin-top: 25px;
+margin-bottom: 57px;
+}
+#fotter .footer_contents ul li
+{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 13px;
+color: #fff;
+margin-left:-30px;
+line-height:23px;
+position: relative;
+}
+#fotter .footer_contents ul li span
+{
+position:absolute;
+top:0;
+left:40%;
+color:#ffffff;
+}
+#fotter .footer_contents p
+{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size:13px;
+color:#ffff; 
+line-height: 20px;
+margin-top: 25px;
+position: relative;
+margin-left:22px;
+}
+#fotter .footer_contents p i
+{
+color:;
+position: absolute;
+top:4%;
+left:-13%; 
+font-size:20px;
+color: #1da1f2;
+transition: all linear .4s;
+}
+#fotter .footer_contents p i:hover
+{
+color:#ffffff;
+transition: all linear .4s;
+}
+#fotter .footer_contents .flicker h3
+{
+margin-bottom: 25px;
+margin-left:-11px;
+}
+#fotter .footer_contents .flicker .gallery_img
+{
+padding-left:5px;
+padding-right:5px;
+margin-bottom:10px;
+}
+#fotter .footer_contents address h3
+{
+margin-left:9px;
+}
+#fotter .footer_contents address p
+{
+margin-left:38px;
+margin-bottom: -16px;
+}
+#fotter .footer_contents address p a i
+{
+font-size:14px;
+color:#e23e38;
+}
+#fotter .footer_contents address p a
+{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size:13px;
+color:#ffff;
+}
+#fotter .footer_contents p
+span
+{
+font-family:'Open Sans', sans-serif;
+font-weight: 600;
+ display: block;
+}
+#fotter .footer_contents .social
+{
+padding-left:10px;
+}
+#fotter .footer_contents .social li
+{
+display: inline-block;
+}
+#fotter .footer_contents .social li a i
+{
+width: 30px;
+height:30px;
+line-height:30px;
+background:transparent;
+color: #ffffff;
+margin: 0 18px;
+text-align:center;
+border: 1px solid #ffff;
+transform:all linear .3s;
+}
+#fotter .footer_contents .social li a i.active
+{
+color:#ffff;
+background:#e23e38;
+border:none;
+}
+#fotter .footer_contents .social li a i:hover
+{
+background:#e23e38;
+transform:all linear .3s;
+}
+#fotter .footer_contents .touch
+{
+margin-left:11px;
+margin-top:-30px;
+}
+#fotter .footer_contents ul
+{
+margin-left:11px;
+}
+#fotter .footer_copy_rights
+{
+border-top: 1px solid #f1f1f1;
+}
+#fotter .footer_copy_rights p a
+{
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size:13px;
+color:#e23e38;
+}
+#fotter .footer_copy_rights p
+{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size:13px;
+color:#ffffff;
+line-height: 50px;
+}
+/*****footer CSS part ENDS***/
+/***another Stickey navbar practice css start***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***another Stickey navbar css  ends***/
